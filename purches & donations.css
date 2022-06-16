@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.container{
+    background-attachment: fixed;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(jwell.jpg);
+    background-size: cover;
+    padding: 10px 10%;
+}
+.topnav{
+    background-color: transparent;
+    overflow: hidden;
+    font-family: cursive;
+    color: white;
+}
+.logo{
+    width: 8%;
+    cursor: pointer;
+}
+.topnav a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover{
+    background-color: white;
+    color: black;
+}
+.topnav a.active{
+    background-color:lightgreen;
+    color: black;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+}
+@media (max-height:800px){
+    footer{position:static;}
+    head{padding-top:40px ;}
+}
+footer.about{
+    background-color: black;
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: left;
+    font:bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 10%;
+}
+.about.left,
+.about.center,
+.about.right{
+    display:inline-block;
+    vertical-align: top;
+}
+/*Footer Center*/
+.about.center{
+    max-width: 15%;
+}
+.about.center i{
+    background-color: black;
+    color: whitesmoke;
+    font-size: 25px;
+    max-width: 20%;
+    min-height: 25%;
+    border-radius: 12%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+.about.center p{
+    display: inline-block;
+    color: whitesmoke;
+    vertical-align: middle;
+    margin: 0;
+}
+.about.center p span{
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+.about.center p a{
+    color: lightgoldenrodyellow;
+    text-decoration: none;
+}
+.about.right{
+    max-width: 30%;
+}
+.about.footer-company-about{
+    line-height: 20px;
+    color: gray;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+.about.footer-company-about span{
+    display: block;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.about.resources{
+    max-width: 30%;
+}
+.about.resources{
+    line-height: 20px;
+    color: whitesmoke;
+    font-size:13px;
+    font-weight: normal;
+    margin: 0;
+}
+.about.resources{
+    display: block;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
